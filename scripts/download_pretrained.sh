@@ -7,7 +7,7 @@ if [ ! -d $DOWNLOAD/pretrained ] ; then
 fi
 
 BLOB='https://convaisharables.blob.core.windows.net/clipbert'
-
+#test
 # This will not overwrite model
 wget -nc $BLOB/pretrained/clipbert_image_text_pretrained.pt -O $DOWNLOAD/pretrained/clipbert_image_text_pretrained.pt
 
